@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -la1 | find /. -type f -name '*.git' | cut -f 1 -d '.' | sort -f
